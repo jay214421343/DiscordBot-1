@@ -1,8 +1,8 @@
 /* eslint-disable */
 var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 	// ALL settings are strings. Do NOT just use true or false, use these in strings such as 'true' or 'false'. This is due to how some code works when changing the settings
-	ownerID: '', // Your ID here
-	token: '', // Your bot token here
+	ownerID: '358661627459141642', // Your ID here
+	token: 'NTU1MDMxMzg1NTk3OTM1NjE3.XPVQrw.8zXyqdBP4GwhT7_vNMdmcNmaQ2o', // Your bot token here
 	status: 'dnd', // Bot status [online/idle/invisible/dnd]
 	debug: 'false', // This is used to output some debug info if needed. The token will be in the console and other information could be in the console
 	playingGame: '{{prefix}}help | {{guilds}} guilds | v{{version}}', // The game you want the bot to play. {{prefix}} is replaced with the default prefix below, {{guilds}} is replaced with the guild count and {{version}} is replaced with the bot version. Leave blank to disable
@@ -13,7 +13,7 @@ var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
   logTimeFormat: 'D MMM YYYY HH:mm:ss ZZ',
   musicEnabled: 'true',
 	defaultSettings: {
-		prefix: '&&&',
+		prefix: '!',
 		modLogChannel: 'mod-log',
 		modRole: 'Moderator',
 		adminRole: 'Admin',
@@ -38,7 +38,7 @@ var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 		oauthSecret: '', // The client secret from the Discord bot page
 		secure: 'false', // HTTPS: 'true' for true, 'false' for false
 		sessionSecret: '', // Go crazy on the keyboard here, this is used as a session secret
-		domain: 'localhost:33445', // Domain name (with port if not running behind proxy running on port 80). Example: 'domain': 'dashboard.bot-website.com' OR 'domain': 'localhost:33445'
+		domain: 'dashboard.bobby.com', // Domain name (with port if not running behind proxy running on port 80). Example: 'domain': 'dashboard.bot-website.com' OR 'domain': 'localhost:33445'
 		port: '33445', // The port that it should run on
 		invitePerm: '536079575',
 		protectStats: 'false',
