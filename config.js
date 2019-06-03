@@ -38,8 +38,8 @@ var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 		oauthSecret: '', // The client secret from the Discord bot page
 		secure: 'false', // HTTPS: 'true' for true, 'false' for false
 		sessionSecret: '', // Go crazy on the keyboard here, this is used as a session secret
-		domain: 'dashboard.bobby.com', // Domain name (with port if not running behind proxy running on port 80). Example: 'domain': 'dashboard.bot-website.com' OR 'domain': 'localhost:33445'
-		port: '33445', // The port that it should run on
+		domain: 'dashboard.bobby-website.com', // Domain name (with port if not running behind proxy running on port 80). Example: 'domain': 'dashboard.bot-website.com' OR 'domain': 'localhost:33445'
+		port: '24132', // The port that it should run on
 		invitePerm: '536079575',
 		protectStats: 'false',
 		borderedStats: 'false', // Controls whether stats in the dashboard should have a border or not
